@@ -1,16 +1,20 @@
-*{
+* {
     font-family: 'Open Sans', sans-serif;
 }
+
 /* heading section */
-.header{
+.header {
     color: #fefdf8;
     background-image: url('../images/donation4.jpg');
     background-position: center;
     background-repeat: no-repeat;
     text-align: center;
+    background-size: cover;
     margin-bottom: 200px;
+    padding: 150px 0;
 }
-.header-title{
+
+.header-title {
 
     font-size: 40px;
     font-weight: 1000;
@@ -18,94 +22,151 @@
     margin-bottom: 20px;
     padding-left: 100px;
     padding-right: 100px;
-    
+
 }
-.header-subtitle{
+
+.header-subtitle {
     font-size: 18px;
     margin-bottom: 20px;
 }
-.btn-primary{
+
+.btn-primary {
     color: white;
     border-radius: 5px;
     border: 0;
     background: rgba(201, 59, 83, 0.864);
     height: 50px;
 }
-.button{
-   padding-bottom: 150px;
+
+.button {
+    padding-bottom: 150px;
 }
-.first{
+
+.first {
     text-align: center;
     max-width: 700px;
     margin: 0 auto;
 }
-.second{
+
+.second {
     text-align: center;
     max-width: 900px;
     margin: 0 auto;
 }
-.tk-items{
-    
+
+.tk-items {
+
     margin-top: 30px;
     display: flex;
     gap: 20px;
     justify-content: space-evenly;
     margin-bottom: 50px;
 }
-.tk-info{
+
+.tk-info {
     background-color: blanchedalmond;
     padding: 30px 30px;
     border: 0;
 }
-.tk-info:hover{
+
+.tk-info:hover {
     background-color: aqua;
     border-radius: 5px;
     border: 1px solid blue;
 }
-.section-title{
+
+.section-title {
     font-size: 35px;
     font-weight: 700;
 }
-.section-subtitle{
+
+.section-subtitle {
     font-size: 20px;
 }
-.img-size{
+
+.img-size {
     height: 50px;
     width: 50px;
 }
-.reasons{
+
+.reasons {
     margin-top: 80px;
     margin-bottom: 60px;
     text-align: left;
     display: flex;
     gap: 50px;
 }
-.reason-items{
+
+.reason-items {
     padding: 60px 20px 30px 20px;
 }
-.reason-title{
+
+.reason-title {
     font-size: 25px;
     font-weight: 600;
     margin-bottom: 10px;
 }
-input:focus{
+
+input:focus {
     outline: none;
 }
-.third{
+
+.third {
     display: flex;
     gap: 30px;
     max-width: 900px;
     margin: 0 auto;
     margin-bottom: 100px;
 }
-.third .btn-primary{
+
+.third .btn-primary {
     margin-top: 20px;
 }
-img{
+
+img {
     width: 500px;
     height: 400px;
 }
-.fourth{
+
+.fourth {
     text-align: center;
+    margin-bottom: 30px;
+}
+
+.inputt {
+    height: 50px;
+}
+
+.last .btn-primary {
+    width: 200px;
+}
+
+.last input {
+    width: 300px;
+}
+
+.last {
+
     margin-bottom: 80px;
+    margin-top: 90px;
+}
+
+span {
+    padding: 50px 60px;
+    background: blanchedalmond;
+}
+
+footer {
+    text-align: center;
+    background-color: black;
+    padding: 30px 0;
+}
+
+.foot1 {
+    color: pink;
+    font-family: 'Lobster', sans-serif;
+}
+
+.foot2 {
+    color: white;
 }
