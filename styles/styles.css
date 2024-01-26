@@ -121,6 +121,7 @@ input:focus {
 
 .third .btn-primary {
     margin-top: 20px;
+    width: 250px;
 }
 
 img {
@@ -135,6 +136,9 @@ img {
 
 .inputt {
     height: 50px;
+    background-color: rgb(235, 232, 232);
+    border-radius: 5px;
+    border: none;
 }
 
 .last .btn-primary {
@@ -147,12 +151,12 @@ img {
 
 .last {
 
-    margin-bottom: 80px;
+    margin-bottom: 120px;
     margin-top: 90px;
 }
 
 span {
-    padding: 50px 60px;
+    padding: 80px 120px;
     background: blanchedalmond;
 }
 
